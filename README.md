@@ -39,7 +39,7 @@ self-contained proof with Yao minimax + rotation-invariant Lemma 2
 Work in progress. Phase 0 note (this PDF) closes the simplest
 case: isotropic per-task Hessian $H_t = I_d$, sphere-uniform
 $\tau_t$. Phase 1 (not yet in this repo) lifts to rank-$r$ LoRA
-subspaces with general $H_t \succeq 0$ — a rank-$r$ effective-
+subspaces with general $H_t \succeq 0$ a rank-$r$ effective-
 dimension parameter $d_{\mathrm{eff}}$ replaces $d$ in the exponent,
 and the floor becomes $B^2(1-d_{\mathrm{eff}}/(Tr))$. Phase 2
 will add a matching achievability upper bound via Hadamard-
