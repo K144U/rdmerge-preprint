@@ -1,4 +1,4 @@
-# rdmerge — Rate-Distortion Lower Bound for LoRA Model Merging
+# rdmerge Rate-Distortion Lower Bound for LoRA Model Merging
 
 A Shannon-style rate–distortion lower bound for the problem of
 compressing $T$ LoRA-fine-tuned task vectors into a single merged
@@ -6,7 +6,7 @@ model, with worst-task distortion as the figure of merit.
 
 The lower bound reduces to
 [TurboQuant Theorem 3](https://arxiv.org/abs/2504.19874) (Zandieh,
-Daliri, Hadian, Mirrokni — 2504.19874) via a deterministic
+Daliri, Hadian, Mirrokni 2504.19874) via a deterministic
 max-$\geq$-avg identity on the $T$ task vectors plus a scale-invariant
 RD lemma for rotationally-invariant sources.
 
@@ -41,7 +41,7 @@ case: isotropic per-task Hessian $H_t = I_d$, sphere-uniform
 $\tau_t$. Phase 1 (not yet in this repo) lifts to rank-$r$ LoRA
 subspaces with general $H_t \succeq 0$ — a rank-$r$ effective-
 dimension parameter $d_{\mathrm{eff}}$ replaces $d$ in the exponent,
-and the floor becomes $B^2(1 - d_{\mathrm{eff}}/(Tr))$. Phase 2
+and the floor becomes $B^2(1-d_{\mathrm{eff}}/(Tr))$. Phase 2
 will add a matching achievability upper bound via Hadamard-
 incoherence quantization. Target venue: ICLR 2027.
 
@@ -77,5 +77,5 @@ Open a GitHub issue, or email **pathaksankalp04@gmail.com**.
 ## License
 
 Released under **Creative Commons Attribution 4.0 International
-(CC BY 4.0)** — see [`LICENSE`](LICENSE). You can share, adapt, or
+(CC BY 4.0)** see [`LICENSE`](LICENSE). You can share, adapt, or
 build on this work with attribution; commercial use is allowed.
