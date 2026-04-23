@@ -43,11 +43,11 @@ subspaces with general $H_t \succeq 0$ a rank-$r$ effective-
 dimension parameter $d_{\mathrm{eff}}$ replaces $d$ in the exponent,
 and the floor becomes $B^2(1-d_{\mathrm{eff}}/(Tr))$. Phase 2
 will add a matching achievability upper bound via Hadamard-
-incoherence quantization. Target venue: ICLR 2027.
+incoherence quantization. Target venue: ICLR 2026.
 
 ## Feedback
 
-Solo research; feedback very welcome. Especially on:
+research student; feedback very welcome. Especially on:
 
 1. **Lemma 2's tail-event substitution.** The note uses a high-
    probability norm event on $\|\bar\tau\|^2$ and absorbs a
