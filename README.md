@@ -70,7 +70,7 @@ Open a GitHub issue, or email **pathaksankalp04@gmail.com**.
                   (Phase 0 note)},
   year         = {2026},
   note         = {Work in progress},
-  howpublished = {\url{https://github.com/<user>/rdmerge-preprint}}
+  howpublished = {\url{https://github.com/K144U/rdmerge-preprint}}
 }
 ```
 
